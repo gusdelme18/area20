@@ -49,6 +49,11 @@ public class Login extends javax.swing.JFrame {
         jLabel3.setText("Contrasena");
 
         jbIngresar.setText("Ingresar");
+        jbIngresar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbIngresarActionPerformed(evt);
+            }
+        });
 
         jbClose.setText("Cerrar");
         jbClose.addActionListener(new java.awt.event.ActionListener() {
@@ -117,6 +122,10 @@ public class Login extends javax.swing.JFrame {
     private void jbCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbCloseActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jbCloseActionPerformed
+
+    private void jbIngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbIngresarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbIngresarActionPerformed
 
     /**
      * @param args the command line arguments
