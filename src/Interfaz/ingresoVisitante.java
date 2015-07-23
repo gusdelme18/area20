@@ -64,9 +64,7 @@ public final class ingresoVisitante extends javax.swing.JFrame {
         }
         initComponents();
         txtArea.setEditable(false);
-        this.setLocationRelativeTo(null);
-
-        System.out.print(Reclutador.getFeaturesNeeded() + "PRUEBA");
+        this.setLocationRelativeTo(null);       
     }
 
     protected void Iniciar() {
